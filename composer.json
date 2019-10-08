@@ -1,0 +1,24 @@
+{
+    "name": "coderatio/curler",
+    "description": "A clean PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah Yahaya",
+            "email": "josiahoyahaya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr": {
+            "src": "\\Coderatio\\Curler\\"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    }
+}
