@@ -130,6 +130,9 @@ $curler->addCurlOptions([
 ]);
 ```
 
+## Contributors
+To be a contributor, kindly fork the repo, add or fix bugs and send a pull request.
+
 ## Contribution
 To contribute to this project, kindly fork it and send a pull request or find me on <a href="https://twitter.com/josiahoyahaya">Twitter</a>.
 
