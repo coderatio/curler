@@ -358,7 +358,7 @@ class Curler
     }
 
     /**
-     * Send request headers.
+     * Set request headers.
      *
      * @param array $headers
      */
