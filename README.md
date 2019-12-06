@@ -46,7 +46,7 @@ Sending form data via curler is as simple sending a `post` request. Just send an
 $data = [
   'first_name' => 'John',
   'last_name' => 'Doe',
-  'email' => 'johndoe@example.com
+  'email' => 'johndoe@example.com'
 ];
 
 $curler = new \Coderatio\Curler\Curler();
