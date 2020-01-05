@@ -14,7 +14,7 @@
             "src\\"
         ],
         "psr-4": {
-            "src": "\\Coderatio\\Curler\\"
+            "\\Coderatio\\Curler\\": "src"
         }
     },
     "minimum-stability": "dev",
