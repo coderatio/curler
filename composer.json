@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "classmap": [
-            "src"
+            "src\\"
         ],
         "psr-4": {
             "src": "\\Coderatio\\Curler\\"
