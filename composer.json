@@ -13,7 +13,7 @@
         "classmap": [
             "src"
         ],
-        "psr": {
+        "psr-4": {
             "src": "\\Coderatio\\Curler\\"
         }
     },
