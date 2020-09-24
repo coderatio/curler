@@ -11,10 +11,10 @@
     ],
     "autoload": {
         "classmap": [
-            "src\\"
+            "src"
         ],
         "psr-4": {
-            "\\Coderatio\\Curler\\": "src"
+            "Coderatio\\Curler\\": "src"
         }
     },
     "minimum-stability": "dev",
