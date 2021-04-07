@@ -15,13 +15,25 @@ composer require coderatio/curler
 ___
 
 ### `GET`
-Because this is built with simplicity in mind from the beginning, below is how easy you can make a get request to another server.
+Because this is built with simplicity in mind from the beginning, below is how easy you can make a `get` request to another server.
 ```php
 
 require 'vendor/autoload.php';
 
 $curler = new \Coderatio\Curler\Curler();
 $curler->get('https://jsonplaceholder.typicode.com/todos');
+$response = $curler->getResponse();
+
+```
+For `get` requests with parameters, you can pass the parameters as Array like below;
+
+```php
+
+$parameters = [
+    'postId' => 1,
+];
+$curler = new \Coderatio\Curler\Curler();
+$curler->get('https://jsonplaceholder.typicode.com/comments', $parameters);
 $response = $curler->getResponse();
 
 ```
@@ -39,6 +51,7 @@ $request = $curler->post('https://jsonplaceholder.typicode.com/posts', $data);
 $response = $curler->getResponse();
 
 ```
+If the API endpoint you are calling requires a `data` as json, remember to parse your `$data` array using `json_encode`
 ### `POST FORM`
 Sending form data via curler is as simple sending a `post` request. Just send an array of your form data and curler will take care of the rest. Take a look below:
 ```php
